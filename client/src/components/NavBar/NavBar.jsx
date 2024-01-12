@@ -45,7 +45,7 @@ export default function NavBar() {
             <button className="ml-3 mr-auto my-2 transform transition hover:text-gray-500" onClick={toggleMenu}>
               <FiArrowLeft size={20} />
             </button>
-            <div className="border-r border-gray-300 w-full"></div> {/* Línea gris */}
+            <div className="border-t border-gray-300 w-full"></div> {/* Línea gris horizontal */}
             <Link
               href="#contactame"
               className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
@@ -70,6 +70,7 @@ export default function NavBar() {
             </div>
           </div>
         </div>
+        
         
         )}
       </div>
