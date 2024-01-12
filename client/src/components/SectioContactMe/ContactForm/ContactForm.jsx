@@ -155,9 +155,11 @@ export default function ContactMe() {
           Enviar
         </button>
         {enviado && (
-          <p className='absolute bg-green-500 text-white rounded-lg p-2 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+          <div className='absolute bg-green-600 text-white rounded-lg p-2 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center shadow-md'>
+          <p >
             Correo enviado con éxito
           </p>
+          </div>
         )}
       </form>
     </div>
