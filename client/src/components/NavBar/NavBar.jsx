@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
-import { FiArrowLeft } from 'react-icons/fi';
+import { FiArrowLeft} from 'react-icons/fi';
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Link from 'next/link';
 
 export default function NavBar() {
@@ -18,13 +19,19 @@ export default function NavBar() {
     <div className="z-40 w-full flex items-center h-14 text-xl justify-end relative font-sans">
       <div className="w-full">
         <div className="flex items-center justify-end">
-          <div className="hidden sm:flex justify-end">
+          <div className="hidden sm:flex justify-end items-center">
             <Link href="#contactame" className="mx-3 transform transition text-white hover:text-gray-500">
               Contacto
             </Link>
             <Link href="#servicios" className="mx-3 transform transition text-white hover:text-gray-500">
               Servicios
             </Link>
+            <a href="https://wa.me/543496506678" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition text-white hover:text-gray-500'>
+              <FaWhatsapp size={20} />
+            </a>
+            <a href="https://www.instagram.com/innovate_dev" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition text-white hover:text-gray-500'>
+              <FaInstagram size={20} />
+            </a>
           </div>
           <div className="sm:hidden">
           <button className="mx-3 transform text-white transition hover:text-gray-500" onClick={toggleMenu}>
@@ -52,6 +59,14 @@ export default function NavBar() {
               >
                 Servicios
               </Link>
+              <div className='flex mr-3 ml-auto mt-auto mb-3'>
+              <a href="https://wa.me/543496506678" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition hover:text-gray-500'>
+              <FaWhatsapp size={20} />
+            </a>
+            <a href="https://www.instagram.com/innovate_dev" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition hover:text-gray-500'>
+              <FaInstagram size={20} />
+            </a>
+            </div>
             </div>
           </div>
         )}
