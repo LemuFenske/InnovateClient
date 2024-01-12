@@ -45,7 +45,7 @@ export default function NavBar() {
             <button className="ml-3 mr-auto my-2 transform transition hover:text-gray-500" onClick={toggleMenu}>
               <FiArrowLeft size={20} />
             </button>
-            <div className="border-t border-gray-300 w-full"></div> {/* Línea gris horizontal */}
+            <div className="border-t border-gray-600 w-full"></div>
             <Link
               href="#contactame"
               className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
@@ -53,6 +53,7 @@ export default function NavBar() {
             >
               Contacto
             </Link>
+            <div className="border-t border-gray-600 w-full"></div>
             <Link
               href="#servicios"
               className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
@@ -60,6 +61,7 @@ export default function NavBar() {
             >
               Servicios
             </Link>
+            <div className="border-t border-gray-600 w-full"></div>
             <div className='flex mr-3 ml-auto mt-auto mb-3'>
               <a href="https://wa.me/543496506678" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition hover:text-gray-500'>
                 <FaWhatsapp size={20} />
