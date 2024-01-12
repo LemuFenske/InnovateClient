@@ -28,9 +28,11 @@ const SectionAboutMe = () => {
               <Logo />
             </div>
           </div>
-          <div className='absolute bottom-0 left-0 w-full '>
-            <Servicios/>
-          </div>
+          <div className='absolute bottom-0 left-0 w-full mb-[-50px] md:mb-[-20px]'>
+        <div className="">
+          <Servicios />
+        </div>
+      </div>
         </div>
       </div>
     </section>
