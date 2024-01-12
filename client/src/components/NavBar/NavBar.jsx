@@ -41,34 +41,36 @@ export default function NavBar() {
         </div>
         {showMenu && (
           <div className="fixed inset-0 z-50 bg-black bg-opacity-50" onClick={closeMenu}>
-            <div className="flex flex-col bg-blue-200 ml-auto w-1/2 h-full">
-              <button className="ml-3 mr-auto my-2 transform transition hover:text-gray-500" onClick={toggleMenu}>
-                <FiArrowLeft size={20} />
-              </button>
-              <Link
-                href="#contactame"
-                className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
-                onClick={toggleMenu}
-              >
-                Contacto
-              </Link>
-              <Link
-                href="#servicios"
-                className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
-                onClick={toggleMenu}
-              >
-                Servicios
-              </Link>
-              <div className='flex mr-3 ml-auto mt-auto mb-3'>
+          <div className="flex flex-col bg-blue-200 ml-auto w-1/2 h-full">
+            <button className="ml-3 mr-auto my-2 transform transition hover:text-gray-500" onClick={toggleMenu}>
+              <FiArrowLeft size={20} />
+            </button>
+            <div className="border-r border-gray-500 h-full mx-2"></div> {/* Línea gris */}
+            <Link
+              href="#contactame"
+              className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
+              onClick={toggleMenu}
+            >
+              Contacto
+            </Link>
+            <Link
+              href="#servicios"
+              className="mr-3 ml-auto my-2 transform transition hover:text-gray-500"
+              onClick={toggleMenu}
+            >
+              Servicios
+            </Link>
+            <div className='flex mr-3 ml-auto mt-auto mb-3'>
               <a href="https://wa.me/543496506678" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition hover:text-gray-500'>
-              <FaWhatsapp size={20} />
-            </a>
-            <a href="https://www.instagram.com/innovate_dev" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition hover:text-gray-500'>
-              <FaInstagram size={20} />
-            </a>
-            </div>
+                <FaWhatsapp size={20} />
+              </a>
+              <a href="https://www.instagram.com/innovate_dev" target="_blank" rel="noopener noreferrer" className='mx-3 transform transition hover:text-gray-500'>
+                <FaInstagram size={20} />
+              </a>
             </div>
           </div>
+        </div>
+        
         )}
       </div>
     </div>
