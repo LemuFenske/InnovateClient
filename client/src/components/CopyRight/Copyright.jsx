@@ -8,7 +8,7 @@ const Copyright = () => {
 
   return (
     <footer className="text-center pt-20 pb-6 bg-white text-black">
-      <div className="flex flex-wrap justify-center mt-4 mb-20 space-x-8">
+      <div className="flex flex-wrap justify-center mt-4 mb-20">
 
         <div className='text-center md:text-left w-full md:w-1/2 px-10 md:px-20 mb-20 md:mb-0'>
           <Image
