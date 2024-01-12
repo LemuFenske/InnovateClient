@@ -34,7 +34,7 @@ const Copyright = () => {
           </ul>
         </div>
 
-        <div className='w-full md:w-1/5'>
+        <div className='w-full md:w-1/5 bg-red-500'>
           <h3 className="text-lg text-sky-900 font-bold mb-2">Redes Sociales</h3>
           <div className="flex justify-center space-x-4">
             <a href="https://wa.me/543496506678" target="_blank" rel="noopener noreferrer">
