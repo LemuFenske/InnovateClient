@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from './INNOVATE.png';
+import logo from './favicon.png';
 
 export default function Logo() {
   return (
