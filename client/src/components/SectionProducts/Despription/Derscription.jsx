@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Description() {
   return (
-    <div className="mx-0 lg:mx-20 h-full flex flex-col justify-center z-10 relative">
+    <div className="mx-[-10px] lg:mx-20 h-full flex flex-col justify-center z-10 relative">
       <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-4 text-center text-sky-800">
         INNOVATE 🚀
       </h2>
