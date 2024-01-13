@@ -51,7 +51,7 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="mx-4 rounded-lg sm:mx-20 p-6  sm:rounded-lg drop-shadow-lg sm:shadow-inner flex flex-col items-center bg-black bg-opacity-30">
+    <div className="mx-4 my-4 rounded-lg sm:mx-20 p-6  sm:rounded-lg drop-shadow-lg sm:shadow-inner flex flex-col items-center bg-black bg-opacity-30">
       <h1 className="text-4xl text-white font-bold mb-4">Contacto</h1>
       <p className="text-lg text-white mb-2">Para hablar con un <span className="font-bold">ASESOR</span></p>
 

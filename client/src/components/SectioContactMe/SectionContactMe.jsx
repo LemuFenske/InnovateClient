@@ -15,7 +15,7 @@ export default function SectioContactMe () {
         className="absolute top-0 left-0 z-0"
       />
           <div className='flex flex-col justify-center items-center w-full min-h-screen'>
-            <div className='h-screen w-full flex justify-center items-center'>
+            <div className='min-h-screen w-full flex justify-center items-center'>
               <div className='flex justify-center w-full my-auto'>
                 
                 <div className="w-full">
