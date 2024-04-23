@@ -16,6 +16,9 @@ export default function SectionInstagram() {
         className="absolute top-0 left-0 z-0"
       />
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
+      <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-4 text-center text-sky-800">
+      💡 ALGUNOS PROYECTOS 💡
+      </h2>
         {/* Primera imagen */}
         <div className="w-full md:w-5/12 overflow-hidden border-2 border-black rounded-md transform transition-transform hover:scale-105">
           <Link href="https://aprenderemprendedores.com/" target="_blank">
