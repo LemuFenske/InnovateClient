@@ -11,7 +11,7 @@ const Home = () => {
       <SectioAboutMe/>
       <SectionProducts/>
       <SectioContactMe/>
-      {/* <SectionInstagram/> */}
+      <SectionInstagram/>
       <Copyright/>
     </div>
   );
