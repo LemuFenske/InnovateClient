@@ -6,7 +6,7 @@ import fondo from './Fondo.png'
 
 export default function SectionInstagram() {
   return (
-    <section id="nuestros-productos" className="bg-white text-black p-8 min-h-screen w-full">
+    <section id="nuestros-productos" className="relative bg-white text-black p-8 w-full">
       <Image
         src={fondo}
         layout="fill"
