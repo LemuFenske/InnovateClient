@@ -15,8 +15,8 @@ export default function SectionInstagram() {
         alt="Fondo de Landing Page"
         className="absolute top-0 left-0 z-0"
       />
-      <div className="bg-red-500 pb-4">
-       <h2 className="text-4xl md:text-5xl bg-blue-500 lg:text-5xl font-bold mb-4 text-center text-sky-800 relative z-10 mb-4 mt-2">
+      <div className="pb-4">
+       <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-4 text-center text-sky-800 relative z-10 mb-4 mt-2">
        PROYECTOS
       </h2>
       </div>
