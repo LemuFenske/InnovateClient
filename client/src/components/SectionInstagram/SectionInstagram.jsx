@@ -2,10 +2,19 @@ import Link from "next/link";
 import Image from "next/image";
 import aprender from './aprender.png';
 import maimara from './maimara.png';
+import fondo from './Fondo.png'
 
 export default function SectionInstagram() {
   return (
     <section id="nuestros-productos" className="bg-white text-black p-8 min-h-screen w-full">
+      <Image
+        src={fondo}
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        alt="Fondo de Landing Page"
+        className="absolute top-0 left-0 z-0"
+      />
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
         {/* Primera imagen */}
         <div className="w-full md:w-5/12 overflow-hidden border-2 border-black rounded-md transform transition-transform hover:scale-105">
