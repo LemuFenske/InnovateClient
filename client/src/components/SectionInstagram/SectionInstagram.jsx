@@ -13,8 +13,6 @@ export default function SectionInstagram() {
             <div>
               <Image
                 src={aprender}
-                width={450}
-                height={450}
                 quality={100}
                 alt="Imagen 1"
               />
@@ -27,8 +25,6 @@ export default function SectionInstagram() {
             <div>
               <Image
                 src={maimara}
-                width={450}
-                height={450}
                 quality={100}
                 alt="Imagen 3"
               />
